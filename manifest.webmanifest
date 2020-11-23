@@ -3,7 +3,26 @@
     "name": "Where is my super bus ?",
     "description": "find the perfect bus for you",
     "icons": [
-      
+        {
+            "src": "/icons/icons-32.png",
+            "type": "image/png",
+            "sizes": "32x32"
+          },
+          {
+            "src": "/images/icons-64.png",
+            "type": "image/png",
+            "sizes": "64x64"
+          },
+          {
+            "src": "/images/icons-96.png",
+            "type": "image/png",
+            "sizes": "96x96"
+          },
+          {
+            "src": "/images/icons-128.png",
+            "type": "image/png",
+            "sizes": "128x128"
+          }
     ],
     "start_url": "index.html",
     "background_color": "#3367D6",
