@@ -1,5 +1,13 @@
 "use strict";
 
+if('serviceWorker' in navigator) {
+    window.addEventListener('load', () => 
+    {
+        navigator.serviceWorker.register('sw.js')
+        .then(reg => console.log("Him alive !"));
+    })
+};
+
 /************************************************************************
  *                                                                      *
  *                  Ginko Bus Progressive Web Application               *
